@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Nabvar from './components/Nabvar'
 import Carousel from './components/Carousel'
+import Products from './components/Products'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +14,7 @@ function App() {
     <div className=''>
       <Nabvar />
       <Carousel />
+      <Products />
     </div>
   )
 }
