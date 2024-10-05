@@ -5,9 +5,9 @@ import cap3 from "../assets/img/img (7).jpeg"
 import cap4 from "../assets/img/img (10).jpeg"
 export default function Products() {
   return (
-    <div className='bg-slate-200  py-6 mt-10'>
+    <div className='bg-gray-200  py-6 mt-10'>
       <div className='max-w-6xl mx-auto'>
-        <h3 className='text-4xl font-bold uppercase my-10 text-center md:text-left'>Buy 1 get 1 Free <br />on best selling products</h3>
+        <h3 className='text-4xl font-bold uppercase my-10 text-center md:text-left font-fac text-gray-500 outline-4'>Buy 1 get 1 Free <br />on <span className='text-yellow-500'>best selling products</span></h3>
         <div className='card-parent grid grid-cols-1 md:grid-cols-4 mt-4 gap-4 mx-4 md:mx-0'>
           <div className="card card-compact bg-base-100 shadow-xl ">
             <div className='mx-2 mt-2 px-3 pt-3'>

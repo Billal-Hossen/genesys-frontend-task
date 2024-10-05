@@ -6,6 +6,8 @@ import Nabvar from './components/Nabvar'
 import Carousel from './components/Carousel'
 import Products from './components/Products'
 import Collection from './components/Collection'
+import Banner from './components/Banner'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -13,10 +15,14 @@ function App() {
 
   return (
     <div className=''>
-      <Nabvar />
-      <Carousel />
+      <div className='bg-red-700 pb-10'>
+        <Nabvar />
+        <Carousel />
+      </div>
       <Products />
       <Collection />
+      <Banner />
+      <Footer />
     </div>
   )
 }
