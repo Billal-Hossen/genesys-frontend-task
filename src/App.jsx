@@ -5,6 +5,7 @@ import './App.css'
 import Nabvar from './components/Nabvar'
 import Carousel from './components/Carousel'
 import Products from './components/Products'
+import Collection from './components/Collection'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Nabvar />
       <Carousel />
       <Products />
+      <Collection />
     </div>
   )
 }
